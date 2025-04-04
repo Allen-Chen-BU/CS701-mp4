@@ -4,6 +4,7 @@ export type Icon = {
     tags: string[];
     vector_sizes: VectorSize[];
     raster_sizes: RasterSize[];
+    is_premium:boolean;
 }
 
 export type RasterSize = {
